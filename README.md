@@ -14,3 +14,5 @@ requirejs(['jquery','audioIE8'], function ($,audioIE8) {
 ```
 
 Call audioIE8.ready method to initialize all of audio elements, then the callback function will be called. In the callback function, most of the methods and properties of audio object can be used.
+
+Note: jquery.jplayer.min.js and jquery.jplayer.swf must be put in the same folder. If you don't use requirejs or seajs, you have to put audio_ie8.js in the same folder as the jplayer files.

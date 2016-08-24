@@ -12,4 +12,4 @@ requirejs(['jquery','audioIE8'], function ($,audioIE8) {
         });
 });
 
-调用audioIE8.ready函数初始化所有audio标签，初始化结束后调用回调函数，回调函数中可以使用大多数audio对象的方法和属性
+Call audioIE8.ready method to initialize all of audio elements, then the callback function will be called. In the callback function, most of the methods and properties of audio object can be used.

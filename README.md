@@ -6,7 +6,7 @@ Use HTML5 Audio Elements in Internet Explorer 8
 <audio src="xxx.mp3" autoplay></audio>
 requirejs(['jquery','audioIE8'], function ($,audioIE8) {
         audioIE8.ready(function () {
-            $('audio')[0].on('ended',function(){
+            $('audio').on('ended',function(){
               this.play()
             })
         });
